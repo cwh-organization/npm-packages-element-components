@@ -1,0 +1,18 @@
+.pro-input-tag {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: var(--el-border-base);
+  border-radius: var(--el-border-radius-base);
+  background-color: var(--el-background-color);
+  & .el-tag {
+    margin: 3px;
+  }
+  & .el-input {
+    flex: 1;
+    min-width: 80px;
+  }
+  & .el-input .el-input__inner {
+    border: 0;
+  }
+}

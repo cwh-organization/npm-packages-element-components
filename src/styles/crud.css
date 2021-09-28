@@ -1,0 +1,16 @@
+.pro-crud-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  & + .pro-table {
+    margin-top: 15px;
+  }
+}
+
+.pro-crud-search-wrapper {
+  display: flex;
+}
+
+.pro-crud-search-wrapper .el-form-item.pro-form-menu {
+  margin-right: 0;
+}

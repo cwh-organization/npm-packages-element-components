@@ -1,0 +1,14 @@
+.pro-tree-select-popper {
+  & .pro-tree-select-options {
+    padding: 0;
+    height: auto;
+    &:hover {
+      background-color: transparent;
+    }
+    & .pro-tree-select-tree .is-disabled:not(.el-checkbox) {
+      flex: 1;
+      color: var(--el-text-color-placeholder);
+      cursor: not-allowed;
+    }
+  }
+}
